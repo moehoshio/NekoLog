@@ -20,6 +20,10 @@ Neko Logging (nlog) is an easy-to-use, modern, lightweight, and efficient C++20 
 - Thread-safe
 - RAII-style scope logging
 
+## Preview
+
+![preview](/examples/preview.png)\
+
 ## Requirements
 
 - C++20 or higher compatible compiler
@@ -529,7 +533,7 @@ This will skip test targets during the build process.
 
 ## See More
 
-- [NekoNet](https://github.com/moehoshio/NekoNet): A modern , easy-to-use C++20 networking library via libcurl.
+- [NekoNetwork](https://github.com/moehoshio/NekoNetwork): A modern , easy-to-use C++20 networking library via libcurl.
 - [NekoLog](https://github.com/moehoshio/NekoLog): An easy-to-use, modern, lightweight, and efficient C++20 logging library.
 - [NekoEvent](https://github.com/moehoshio/NekoEvent): A modern easy to use type-safe and high-performance event handling system for C++.
 - [NekoSchema](https://github.com/moehoshio/NekoSchema): A lightweight, header-only C++20 schema library.
