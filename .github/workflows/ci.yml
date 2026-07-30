@@ -18,7 +18,7 @@ jobs:
           # Windows builds
           - {
               name: "Windows MSVC Module Debug",
-              os: windows-latest,
+              os: windows-2022,
               cc: "cl",
               cxx: "cl",
               build_type: "Debug",
@@ -27,7 +27,7 @@ jobs:
             }
           - {
               name: "Windows MSVC Module Release",
-              os: windows-latest,
+              os: windows-2022,
               cc: "cl",
               cxx: "cl",
               build_type: "Release",
