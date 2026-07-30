@@ -1,6 +1,6 @@
 {
   "packageName": "neko-log",
-  "repositoryUrl": "https://github.com/moehoshio/NekoLog",
+  "repositoryUrl": "https://github.com/hoshimoe/NekoLog",
   "packageManagers": [
     "vcpkg",
     "Conan"

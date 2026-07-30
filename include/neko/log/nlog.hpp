@@ -1,7 +1,7 @@
 /**
  * @file nlog.hpp
  * @brief neko logging module
- * @author moehoshio
+ * @author hoshimoe
  * @copyright Copyright (c) 2025 Hoshi
  * @license MIT OR Apache-2.0
  */
