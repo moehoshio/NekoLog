@@ -1,8 +1,10 @@
 @PACKAGE_INIT@
 
 # Find required dependencies
+# Note: find_dependency() must not be given REQUIRED or QUIET; it forwards the
+# REQUIRED/QUIET-ness requested by the caller of find_package(NekoLog).
 include(CMakeFindDependencyMacro)
-find_dependency(NekoSchema REQUIRED)
+find_dependency(NekoSchema)
 
 # Include the targets file
 include("${CMAKE_CURRENT_LIST_DIR}/NekoLogTargets.cmake")
