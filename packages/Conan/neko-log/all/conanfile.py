@@ -6,7 +6,7 @@ import os
 
 class NekoLogConan(ConanFile):
     name = "neko-log"
-    version = "1.0.7"
+    version = "1.0.8"
     license = "MIT OR Apache-2.0"
     author = "hoshimoe"
     url = "https://github.com/hoshimoe/NekoLog"
@@ -79,5 +79,6 @@ class NekoLogConan(ConanFile):
     
     def package_id(self):
         self.info.clear()
+
 
 

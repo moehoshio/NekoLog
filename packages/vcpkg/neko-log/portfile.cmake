@@ -2,8 +2,7 @@
     OUT_SOURCE_PATH SOURCE_PATH
     REPO hoshimoe/NekoLog
     REF v1.0.8
-    # TODO(release): replace with the real SHA512 of the v1.0.8 tarball
-    SHA512 0
+    SHA512 6fe1e2566809508ad3ae6cf542246c7482eb674c9504288099fdc941ae290fa5aa63e889b82c2cd9ecec9c31ea87effba15b867240c896cdeacc5c7057e22d3e
     HEAD_REF main
 )
 
@@ -25,4 +24,3 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/lib")
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
-
