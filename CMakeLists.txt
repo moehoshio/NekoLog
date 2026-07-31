@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(NekoLog VERSION 1.0.7 LANGUAGES CXX)
+project(NekoLog VERSION 1.0.8 LANGUAGES CXX)
 
 # ================
 # === Config ====
@@ -35,7 +35,7 @@ if(NEKO_LOG_AUTO_FETCH_DEPS)
         message(STATUS "NekoSchema Not Found ; Neko Log is Fetching NekoSchema...")
         FetchContent_Declare(
             NekoSchema
-            GIT_REPOSITORY https://github.com/moehoshio/NekoSchema.git
+            GIT_REPOSITORY https://github.com/hoshimoe/NekoSchema.git
             GIT_TAG        main
         )
         set(NEKO_SCHEMA_BUILD_TESTS OFF CACHE BOOL "" FORCE)

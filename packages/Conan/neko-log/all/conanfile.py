@@ -8,8 +8,8 @@ class NekoLogConan(ConanFile):
     name = "neko-log"
     version = "1.0.7"
     license = "MIT OR Apache-2.0"
-    author = "moehoshio"
-    url = "https://github.com/moehoshio/NekoLog"
+    author = "hoshimoe"
+    url = "https://github.com/hoshimoe/NekoLog"
     description = "An easy-to-use, lightweight, and efficient C++20 logging library."
     topics = ("c++20", "header-only", "logging", "library", "neko")
     

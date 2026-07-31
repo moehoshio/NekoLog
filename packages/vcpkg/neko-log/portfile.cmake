@@ -1,8 +1,9 @@
 ﻿vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO moehoshio/NekoLog
-    REF v1.0.7
-    SHA512 e64e01511dd77da3cfd648ac31911bd3ddda189817b818880568b80726d4ef2c7d118807164c4b18671e5d301a5c38f99209b66c030347d7d9c731497ff6c9a4
+    REPO hoshimoe/NekoLog
+    REF v1.0.8
+    # TODO(release): replace with the real SHA512 of the v1.0.8 tarball
+    SHA512 0
     HEAD_REF main
 )
 
